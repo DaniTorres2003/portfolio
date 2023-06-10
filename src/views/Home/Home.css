@@ -1,0 +1,112 @@
+.Home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 5rem 0 5rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 56%;
+}
+
+.text h1 {
+  font-family: 'Patua One', monospace;
+  color: var(--white);
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  font-family: 'Patua One', monospace;
+  background: linear-gradient(to right, #104243, #316465);
+  border: none;
+  font-size: 1.5rem;
+  color: var(--white);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, #104243bb, #316465bb);
+}
+
+.programador {
+  width: 500px;
+}
+
+@media screen and (max-width: 1296px) {
+  .Home {
+    padding: 5rem 5rem 0 5rem;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .btn {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 1047px) {
+  .Home {
+    padding: 5rem 4rem 0 4rem;
+  }
+
+  .btn {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 747px) {
+  .Home {
+    padding: 5rem 3rem 0 3rem;
+  }
+
+  .text {
+    padding: 0 1rem 0 1rem;
+  }
+
+  .text h1 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    width: 400px;
+  }
+
+  .programador {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 747px) {
+  .Home {
+    padding: 5rem 0.5rem 0 0.5rem;
+  }
+
+  .text h1 {
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 451px) {
+  .btn {
+    width: 350px;
+  }
+}
