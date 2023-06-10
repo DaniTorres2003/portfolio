@@ -12,7 +12,7 @@ const Content = _ => {
     <main>
       <AnimatePresence>
         <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Home />} />
           <Route path="/projetos" element={<Projetos />} />
         </Routes>
       </AnimatePresence>
