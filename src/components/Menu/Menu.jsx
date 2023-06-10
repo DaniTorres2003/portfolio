@@ -13,7 +13,7 @@ const Menu = _ => {
       exit={{opacity: 0}}
     >
         <IconContext.Provider value={{ className: 'icons' }}>
-          <Link to="/"><FaReact /></Link>
+          <Link to="/portfolio"><FaReact /></Link>
           <div className="social-media">
             <a href="https://github.com/DaniTorres2003"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/daniel-torres-548144249/"><FaLinkedin /></a>
