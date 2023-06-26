@@ -13,7 +13,7 @@ const Content = _ => {
       <AnimatePresence>
         <Routes location={location} key={location.pathname}>
           <Route path="/portfolio" element={<Home />} />
-          <Route path="/projetos" element={<Projetos />} />
+          <Route path="/portfolio/projetos" element={<Projetos />} />
         </Routes>
       </AnimatePresence>
     </main>
