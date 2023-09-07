@@ -12,8 +12,8 @@ const Content = _ => {
     <main>
       <AnimatePresence>
         <Routes location={location} key={location.pathname}>
-          <Route path="/portfolio" element={<Home />} />
-          <Route path="/portfolio/projetos" element={<Projetos />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/projetos" element={<Projetos />} />
         </Routes>
       </AnimatePresence>
     </main>
